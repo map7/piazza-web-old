@@ -2,5 +2,13 @@
 
 ** Commands used
 
+Create app
 : rails new piazza -j esbuild --css bulma -a propshaft -d postgresql
 : mv piazza piazza-web
+
+Prepare DB
+: piazza-web
+: bin/rails db:prepare
+
+Start server
+: bin/dev
