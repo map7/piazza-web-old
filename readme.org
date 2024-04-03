@@ -1,0 +1,1 @@
+rails new piazza -j esbuild --css bulma -a propshaft -d postgresql
